@@ -14,7 +14,7 @@ async function start() {
     server.listen(PORT, () => {
       console.log(
         `Server running on port ${PORT} in ${
-          process.env.NODE_ENV || '"you forgot to add NODE_ENV you IDIOT!!"'
+          process.env.NODE_ENV || '"you forgot to add NODE_ENV, you IDIOT!!"'
         } mode`
       );
     });
